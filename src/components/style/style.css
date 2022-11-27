@@ -1,0 +1,268 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.wholeDropdown {
+  margin-top: -36px;
+  margin-left: 20%;
+}
+
+/* website logo length and animation */
+.cartImage {
+  position: relative;
+  border-radius: 2px;
+  height: 30px;
+  width: 30px;
+  margin-left: -86%;
+  margin-bottom: 3.5%;
+  /* margin-top: -3.9%; */
+
+  filter: drop-shadow(6px 3px 0.7px rgb(186, 182, 187));
+}
+
+.stock {
+  position: relative;
+  margin-left: 18%;
+  margin-top: -37px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+.button {
+  /* Home button */
+  border-radius: 8px;
+  border-color: #080908;
+  color: rgb(17, 7, 7);
+  padding: 15px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+/* navigation cotact us about me */
+.buttonContact,
+.buttonAboutme {
+  position: relative;
+  background-color: none;
+
+  border-radius: 5px;
+  text-decoration: none;
+
+  color: #0aa90a;
+}
+.buttonContact {
+  margin-left: 84%;
+}
+.buttonAboutme {
+  margin-left: 2%;
+}
+.navbar_cnt_about {
+  margin-top: -50px;
+}
+
+.grid {
+  border-radius: 1px;
+  height: 15px;
+  width: 15px;
+  margin-bottom: 2%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+/* all pages margin */
+.overAllpage {
+  margin-left: 3.8%;
+  margin-right: 3.8%;
+  margin-top: 1%;
+}
+/* all department button is this */
+.btn-primary {
+  background-color: #0aa90a !important;
+ 
+  box-shadow: 5px 5px 10px 5px #7f847661;
+  border: 1px solid #f4f6f9 !important;
+}
+
+/* search Baar and search submit button  */
+
+.searchContent {
+  margin-top: -2.6%;
+  margin-bottom: 2%;
+}
+.searchBaar {
+  margin-left: 20%;
+  width: 32%;
+  height: 38px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #0aa90a;
+}
+.searchButton {
+  box-shadow: 5px 5px 10px 5px #575d4c61;
+  margin-left: 1.9%;
+  padding-right: 0%;
+  background-color: #0aa90a;
+  width: 100px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #f9fafb;
+  color: white;
+}
+
+.btnCustom {
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+
+/* after home page horizontal line */
+.horiLine {
+  color: rgb(0, 0, 0);
+}
+/* Footer Section */
+.Footer {
+  position: relative;
+  text-align: center;
+bottom: 0;
+  width: 100%;
+  margin-left: -10%;
+  height: 2.5rem;
+  color: rgba(186, 174, 174, 0.741);
+}
+
+.developer{
+  color: rgba(186, 174, 174, 0.741);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: -3.5%;
+  margin-left: 50%;
+}
+.developer1{
+  color:#2929eb;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: -3.5%;
+  margin-left: 29.8%;
+}
+/* blog */
+.blog{
+  font-family:'Times New Roman', Times, serif;
+}
+.usmanPhoto {
+  border-radius: 8px;
+}
+/* Seller Registartion form */
+.registrationHeading {
+  border: 2px solid #0aa90a;
+  background-color: #0aa90a;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 34%;
+
+}
+.registrationFrom {
+  position: relative;
+  margin-left: 18%;
+  margin-right: 20%;
+}
+.registrationInput{
+  margin-bottom: 5%;
+  border-radius: 8px;
+ width: 170%;
+ margin-left: 25%;
+ border: 1px solid #0aa90a;
+ text-align: center;
+}
+.registrationLabel {
+  position: relative; 
+  width: 100%;
+   margin-left: 20%;
+  margin-right: 1%;
+}
+
+.submissionRegisterForm{
+  margin-top: 10%;
+  margin-left: 3.3%;
+}
+.textArea{
+margin-left: 25%;
+
+}
+.completeAddress{
+  text-align: center;
+  margin-left: 4%;
+  width: 200px;
+
+}
+
+.termandCondition{
+  margin-top: -15%;
+  margin-left: 11%;
+  color: blue;
+  margin-bottom: 20%;
+}
+/* sing in for the seller */
+.sellerSubmitButton{
+  position: relative;
+  box-shadow: 5px 5px 10px 5px #575d4c61;
+  margin-left: 350%;
+  border-radius: 8px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 500%;
+  width: 450%;
+  color:rgb(251, 244, 244);
+  background-color:#3450f1e3;
+  border-radius: 8px;
+  border: 1px solid rgb(236, 236, 239);
+}
+.sellerRegisterButton{
+  position: relative;
+  /* text-align: center; */
+  text-align:center;
+  text-decoration-line:none;
+  height: 40px;
+  width: 400%;
+  border-radius: 8px;
+  color:rgb(251, 244, 244);
+  background-color:#3450f1e3;
+  border: 1px solid rgb(236, 236, 239);
+  box-shadow: 5px 5px 10px 5px #575d4c61;
+}
+
+.submissionForm{
+  margin-top: 20%;
+  margin-left: 23%;
+}
+
+.formUpperPart{
+  margin-left: 27%;
+  margin-top: 3%;
+ 
+}
+.termFormLogin{
+  margin-left: 28%;
+  margin-right: 35%;
+  color: blue;
+  margin-top: -10%;
+}
+/* carousels */
+
+.carousel .carousel-item {
+ height: 554px;
+ width: 1112px;
+ margin-top: 1%;
+ margin-bottom: 3%;
+
+}
+
+.carousel-item img {
+ 
+  border-radius: 8px;
+}
+
+
