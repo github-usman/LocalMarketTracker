@@ -74,6 +74,7 @@
   margin-left: 3.8%;
   margin-right: 3.8%;
   margin-top: 1%;
+
 }
 /* all department button is this */
 .btn-primary {
@@ -94,6 +95,7 @@
   width: 32%;
   height: 38px;
   text-align: center;
+  
   border-radius: 5px;
   border: 1px solid #0aa90a;
 }
@@ -266,3 +268,50 @@ margin-left: 25%;
 }
 
 
+/* about howver */
+.flip-card {
+  background-color: transparent;
+  
+  width: 230px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+
+}
+
+.flip-card-back {
+  background-color: #252220d9;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+
+}

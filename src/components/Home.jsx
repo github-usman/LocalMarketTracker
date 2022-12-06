@@ -176,6 +176,31 @@ function Home() {
             </a>
           </ul>
         </div>
+
+        &nbsp;&nbsp;&nbsp;
+        <div class="dropdown">
+          <button
+            class="btn  dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            For Seller{" "}
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <a className="dropdown-item" href="#">
+              sell to a Customer
+            </a>
+            <a className="dropdown-item" href="#">
+              Page 2
+            </a>
+            <a className="dropdown-item" href="#">
+              Page 3
+            </a>
+          </ul>
+        </div>
+       
         {/* <Outlet/> */}
       </div>
       </>

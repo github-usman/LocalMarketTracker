@@ -9,13 +9,13 @@ const carslide = () => {
 
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="4500">
+    <div class="carousel-item active" data-bs-interval="3500">
       <img src={require("./one.jpg")} class="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item" data-bs-interval="5000">
+    <div class="carousel-item" data-bs-interval="3500">
       <img src={require("./two.jpg")} class="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item" data-bs-interval="5000">
+    <div class="carousel-item" data-bs-interval="3500">
       <img src={require("./three.jpg")} class="d-block w-100" alt="..."/>
     </div>
   </div>

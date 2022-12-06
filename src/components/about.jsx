@@ -18,13 +18,29 @@ const About = () => {
         Usman Ali Ansari ❤️<cite title="Source Title"> with Love.</cite>
       </p>
 
-      <img
+      {/* <img
         className="usmanPhoto"
-        src={require("./Usman.jpg")}
+        
         alt="Usman"
         width="120"
         height="150"
-      />
+      /> */}
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img className="usmanPhoto" src={require("./Usman.jpg")}  alt="Usman"
+        width="230"
+        height="300"/>
+    </div>
+    <div class="flip-card-back">
+    <br/> <br/> <br/> 
+      <h1>Usman Ali Ansari</h1> 
+      <p>Software Engineer</p> 
+      <p>currently pursuing B.tech</p>
+    </div>
+  </div>
+</div>
          </>
   );
 };
