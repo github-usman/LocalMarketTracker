@@ -21,7 +21,7 @@ website by which the customer visit will be decent and stock
 consumption will be on time(before expiry).
 ---
 # Screenshots & GIF
-![alt text](../stock-near-you/src/components/Other%20Documents/home_page_stocknearyou.png)
+![Home Page Image](../stock-near-you/src/components/Other%20Documents/home_page_stocknearyou.png)
 ---
 # Installation and Configuration
 
