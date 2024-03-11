@@ -1,9 +1,9 @@
-.log-container{
+.logo-container{
     display: flex;
     align-items: center;
     gap: 2px;
 }
-img{
+.logo-container-img{
     height: 2rem;
     width: 2rem;
 }

@@ -1,10 +1,14 @@
 import React from 'react'
-import Header from '../../layouts/Header'
+import HeaderLayout from '../../layouts/header/HeaderLayout'
+import HeroLayout from '../../layouts/hero/HeroLayout'
+import PopularProductsLayout from '../../layouts/popular/PopularProductsLayout'
 
 const HomePage = () => {
   return (
     <div>
-      <Header></Header>
+      <HeaderLayout></HeaderLayout>
+      <HeroLayout></HeroLayout>
+      <PopularProductsLayout></PopularProductsLayout>
     </div>
   )
 }
