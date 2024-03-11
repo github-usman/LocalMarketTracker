@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ListOfMenus = ({ onMouseEnter, onMouseLeave}) => {
   return (
     <div
-      className="list-menu-container"
+      className="list-menu-container fade-out"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >

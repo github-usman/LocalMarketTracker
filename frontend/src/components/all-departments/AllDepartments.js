@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ListOfMenus from "./ListOfMenus";
+import { RiMenu2Line } from "react-icons/ri";
 import "./all-department.css";
 
 const AllDepartments = () => {
@@ -16,7 +17,7 @@ const AllDepartments = () => {
   return (
     <div className="btn-alldepartment-container">
       <button className="btn-alldepartment-btn" onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-        All Departments
+        <RiMenu2Line/>All Departments
       </button>
       {showMenu && <ListOfMenus onMouseEnter={handleHover} onMouseLeave={handleLeave} />}
     </div>

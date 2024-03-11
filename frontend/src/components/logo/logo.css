@@ -1,0 +1,13 @@
+.log-container{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo-name{
+    width: 16rem;
+}

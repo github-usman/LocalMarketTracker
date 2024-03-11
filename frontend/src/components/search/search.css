@@ -1,0 +1,29 @@
+.search-container{
+    display: flex;
+    width: 100%;
+    
+}
+
+.input-btn{
+    background-color: transparent;
+    border:0.1px solid hsl(0, 29%, 86%);
+
+    padding: 0.7rem 2rem ;
+    border-radius: 8px 0 0 8px;
+    font-size: 18px;
+    width: 70%;
+    outline-color: #55AF22;
+
+}
+.search-btn{
+    background-color: transparent;
+    border: .1px solid hsl(0, 29%, 86%);
+    padding: 0.8rem 2rem;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+   
+}
+.search-btn:hover{
+    background-color: #55AF22;
+    color: white;
+}

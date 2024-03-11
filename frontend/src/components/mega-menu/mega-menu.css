@@ -1,0 +1,52 @@
+.mega-menu-container{
+    display: flex;
+    gap: 0.5rem;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px #5a5858;
+    z-index: 10;
+    background-color: white; 
+}
+.mega-menu-col-list{
+    display: flex;
+    flex-direction: column;
+    word-break: keep-all;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.mega-menu-col-list>*{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #5a5858;
+}
+
+.mega-menu-col-list>*:first-child{
+    color: #55AF22;
+    font-weight: bold;
+}
+
+.mega-menu-col-list a:hover {
+    color: black;
+    background-color: #ece5e5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* animation */
+.mega-menu-container {
+    animation: fadeInFromBottom ease 0.2s forwards;
+}
+
+@keyframes fadeInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
