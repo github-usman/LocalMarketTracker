@@ -2,20 +2,37 @@
 .nav-container{
     display: flex;
     gap: 2rem;
+
+}
+.nav-menu{
+    margin-top: 10px;
 }
 
-.nav-menu {
+.nav-menu-item {
     text-decoration: none; 
     color: #000;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
+    cursor: pointer;   
     gap: 4px;
 }
 
-.nav-menu:hover{
-    .nav-menu-icon{
-        transform: rotate(180deg);
-        transition: ease-in-out 0.3s;
-    } 
+.nav-menu-option{
+    position: absolute;
+    margin-top: 2rem;
+}
+
+.nav-menu-icon {
+    transition: ease-in-out 0.3s; 
+}
+
+.nav-menu-item:hover .nav-menu-icon {
+    transform: rotate(180deg);
+    transition-duration: 0.3s; 
+}
+
+.nav-menu-item:not(:hover) .nav-menu-icon {
+    transition-duration: 0.3s; 
 }

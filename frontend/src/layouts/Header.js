@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
-
+import AllDepartments from "../components/all-departments/AllDepartments";
+import "./header.css"
 const Header = () => {
   return (
     <div>
-      <Navbar />
+      <div className="nav-section">
+        <AllDepartments/>
+        <Navbar />
+      </div>
     </div>
   );
 };
