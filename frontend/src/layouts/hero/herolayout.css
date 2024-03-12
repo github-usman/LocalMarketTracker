@@ -1,5 +1,5 @@
 .hero-layouts-section{
+    display: flex;
     max-width:1280px ;
-    margin: 10px auto;
-    position: relative;
+    margin: 1rem auto;
 }

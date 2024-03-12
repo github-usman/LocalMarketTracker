@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.028660f4.css",
+    "main.js": "/static/js/main.cbc9b2bc.js",
+    "static/media/dairy.jpg": "/static/media/dairy.22dec698d9e474a57e2b.jpg",
+    "static/media/logo.png": "/static/media/logo.f89c84259263e354d89e.png",
+    "index.html": "/index.html",
+    "main.028660f4.css.map": "/static/css/main.028660f4.css.map",
+    "main.cbc9b2bc.js.map": "/static/js/main.cbc9b2bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.028660f4.css",
+    "static/js/main.cbc9b2bc.js"
+  ]
+}

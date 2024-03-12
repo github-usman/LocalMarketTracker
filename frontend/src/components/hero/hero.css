@@ -1,31 +1,29 @@
-.hero-container{
-    margin-top: 1rem;
+ .hero-container{
     position: relative;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
 }
-.hero-img-container{
-    position: relative;
-}
+
 .hero-img{
     border-radius: 10px;
-    position: absolute;
-    z-index: -10;
     width: 100%;
-    height:36rem;
+
 }
 
 .hero-img-content{
     position: absolute;
-    z-index: -10;
     top: 10rem;
-    left:5%;
+    left:10%;
 }
 
 .hero-img-content>h1{
-    width: 25rem;
+    max-width: 25rem;
     font-size: 50px;
 }
 .hero-img-content-para{
-    width: 40rem;
+    max-width: 40rem;
     font-size: 18px;
     color: #726a6a;
 }
@@ -52,4 +50,4 @@
     font-size: 12px;
     font-weight: 600;
 
-}
+} 

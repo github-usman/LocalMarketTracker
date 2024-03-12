@@ -1,0 +1,11 @@
+.popular-product-card-container{
+    border: 1px solid #553e3e;
+    width: 220px;
+    height: 340px;
+    padding: 0.3rem;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+  
+}
+
