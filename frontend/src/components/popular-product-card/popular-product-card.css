@@ -1,11 +1,70 @@
 .popular-product-card-container{
-    border: 1px solid #553e3e;
-    width: 220px;
-    height: 340px;
-    padding: 0.3rem;
+    border: 1.5px solid #d1cccc;
+    padding: 0.5rem 0.3rem;
     border-radius: 8px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
   
 }
 
+.popular-product-card-container:hover{
+    border: 1.5px solid #838842;
+    box-shadow: 1px 1px 10px 3px #d8dbd8;
+    transition: all 0.2s ease-in;
+}
+
+.popular-product-card-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.popular-product-card-btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-product-card-btn{
+    box-shadow: 1px 1px 5px 4px #d8dbd8;
+    background-color: #55AF22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+.popular-product-card-btn:hover{
+    background-color: #262726;
+    color: white;
+}
+
+.popular-product-card-discountDeatils{
+    background-color: #ee3737;
+    width: fit-content;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 5px ;
+    border-radius: 3px;
+}
+.popular-product-card-img-container{
+    height: 15rem;
+    width: 17rem;
+    position: relative;
+}
+.popular-product-card-img{
+    position: absolute;
+    z-index: -10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+.popular-product-card-category, .popular-product-card-rating{
+    color: #968585;
+}

@@ -1,0 +1,29 @@
+.FooterProductLinks-container{
+    max-width: 1280px;
+    margin:auto;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterProductLinks-Categories{
+    display: flex;
+    gap: 1rem;
+}
+
+.FooterProductLinks-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #9e8888;
+}
+
+.FooterProductLinks-links>*:hover{
+    color: #55AF22;
+    cursor: pointer;
+}
+
+.FooterProductLinks-container>div>h5{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

@@ -10,7 +10,7 @@ function PageNotFound() {
         <MdOutlineSmsFailed size={50} color="green" />
         <h3>404</h3>
         <h1>Page not found, </h1>
-        <p>Sorry,<strong> I'am developing</strong> this page please visit after some time.</p>
+        <p>Sorry,<strong> I'm developing</strong> this page please visit after some time.</p>
         <div>
           <Link to="/">Go back home</Link>
         </div>

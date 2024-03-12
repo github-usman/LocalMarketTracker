@@ -6,7 +6,9 @@
 }
 
 .popular-product-layouts-grid{
+    margin-top: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-between;
 }
