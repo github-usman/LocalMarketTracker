@@ -32,13 +32,13 @@ const HeaderLayout = () => {
       <div className="headerLayout-md-device">
         <div className="nav-section">
           <Logo />
-          <AllDepartments />
+          <CitySearchBox></CitySearchBox>
           <AuthLayout />
         </div>
         <div className="search-section">
           <Navbar />
           <SearchBox />
-          <CitySearchBox></CitySearchBox>
+          <AllDepartments />
         </div>
       </div>
       <div className="headerLayout-sm-device">
@@ -59,9 +59,9 @@ const HeaderLayout = () => {
           )}
         </div>
         <div className="search-section">
-          <AllDepartments />
-          <SearchBox />
           <CitySearchBox></CitySearchBox>
+          <SearchBox />
+          <AllDepartments />
         </div>
       </div>
       <hr></hr>
