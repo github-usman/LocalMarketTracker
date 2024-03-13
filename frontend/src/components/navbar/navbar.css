@@ -43,3 +43,14 @@
 .nav-menu-item:not(:hover) .nav-menu-icon {
     transition-duration: 0.3s; 
 }
+
+
+
+@media screen and (max-width: 990px) {
+
+        .nav-container{
+            flex-direction: column;
+            width: fit-content;
+
+        }
+}
