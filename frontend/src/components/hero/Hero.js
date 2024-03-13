@@ -1,15 +1,9 @@
 import React from "react";
-import dairy from "../../assests/images/dairy.jpg";
 import "./hero.css";
 
 const Hero = () => {
   return (
     <div className="hero-container">
-      <img
-        className="hero-img"
-        src={dairy}
-        alt="grocery details, product details"
-      />
       <div className="hero-img-content">
         <p className="hero-discount">Opening Sale Discount 10%</p>
         <h1>Dairy Shop For Fresh Milk</h1>

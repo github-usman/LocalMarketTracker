@@ -38,7 +38,8 @@
     left: 0;
     color: rgb(140, 140, 136);
     background-color: #fff;
-    border: 1px solid #ccc;
+    
+    box-shadow: 1px 1px 5px 1px #dad1d1;
     border-top: none;
     border-radius: 0 0 4px 4px;
     list-style-type: none;

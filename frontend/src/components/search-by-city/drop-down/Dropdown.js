@@ -46,8 +46,9 @@ const Dropdown = () => {
       <div
         className={`dropdown ${isOpen ? "open" : ""} `}
         onMouseLeave={() => setIsOpen(false)}
+        onClick={toggleDropdown}
       >
-        <div className="dropdown-header" onClick={toggleDropdown}>
+        <div className="dropdown-header" >
               {/* icons or location and arrow */}
             <span className={`${isOpen ? "location-active" : ""}`}>
               <FaLocationDot />
