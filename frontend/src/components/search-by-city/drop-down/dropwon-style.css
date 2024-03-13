@@ -46,7 +46,9 @@
     width: 100%;
     height: 80vh;
     overflow-y: scroll;
+    transition: all 3s ease-in;
   }
+
   .selected{
     color:black;
   }
@@ -71,5 +73,24 @@
     margin-top: 0px;
     transition: transform 0.5s ease; 
   }
+
+  /* scrollar */
+  .dropdown-list::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .dropdown-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .dropdown-list::-webkit-scrollbar-thumb {
+    background: #60ad17;
+    border-radius: 5px;
+  }
+  
+  .dropdown-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
   
   

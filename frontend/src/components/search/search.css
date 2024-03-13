@@ -18,24 +18,24 @@
 
 }
 .search-btn{
-    background-color: transparent;
+    background-color: #b3f18f;
     cursor: pointer;
     border-radius:0 8px 8px 0;
     border:0.1px solid hsl(0, 29%, 86%);
     border-left: none;
     padding: 0 .5rem;
+  
    
 }
 .search-btn:hover{
-    background-color: #b3f18f;
-    color: white;
+    background-color: #55AF22;
+    .search-icon{
+        color: white;
+    }
 }
 .search-icon{
-    color: hsl(0, 29%, 86%);;
+    color: black;
     font-size: 28px;
     padding: 0;
 }
 
-.search-icon:hover{
-    color: black;
-}
