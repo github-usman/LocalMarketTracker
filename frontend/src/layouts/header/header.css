@@ -55,5 +55,6 @@
     .hamburger{
         cursor: pointer;
         font-size: 28px;
+        transition: all 3s ease-in-out;
     }
 }

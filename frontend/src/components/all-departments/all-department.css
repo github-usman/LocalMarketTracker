@@ -22,6 +22,10 @@
     cursor: pointer;   
     word-break: keep-all;
 }
+.btn-alldepartment-btn:hover{
+    background-color: black;
+    transition: all ease-in 0.5s;
+}
 
 .list-menu-container {
     display: flex;
