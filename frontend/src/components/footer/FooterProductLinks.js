@@ -5,7 +5,6 @@ const FooterProductLinks = () => {
     <div className="FooterProductLinks-container">
       <div>
         <h5>Categories</h5>
-        <div className="FooterProductLinks-Categories">
             <div className="FooterProductLinks-links">
                 <p>Vegetables & Fruits</p>
                 <p>Breakfast & instant food</p>
@@ -17,6 +16,8 @@ const FooterProductLinks = () => {
                 <p>Cleaning essentials</p>
                 <p>Personal care</p>
             </div>
+            </div>
+        <div>
             <div className="FooterProductLinks-links">
                 <p>Dairy, bread & eggs</p>
                 <p>Cold drinks & juices</p>
@@ -28,8 +29,7 @@ const FooterProductLinks = () => {
                 <p>Home & office</p>
                 <p>Pet care</p>
             </div>
-        </div>
-      </div>
+          </div>
       <div>
         <h5>Get to know us</h5>
         <div className="FooterProductLinks-links">
