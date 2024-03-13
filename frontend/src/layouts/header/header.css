@@ -44,7 +44,6 @@
         display: block;
        .nav-section{
             display: flex;
-            border: 1px solid black;
         }
        
     }
