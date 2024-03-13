@@ -6,6 +6,7 @@
     justify-content: flex-start;
     border-radius: 10px;
     padding: 10rem 5rem;
+    transition: all 1s ease-in;
 }
 
 
@@ -19,8 +20,6 @@
     max-width: 40rem;
     font-size: 18px;
     color: #726a6a;
-    
-    
 }
 .hero-img-content>button{
     cursor: pointer;
