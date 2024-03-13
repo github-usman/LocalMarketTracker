@@ -4,20 +4,23 @@
     width: 90%;
     margin: auto;
     justify-content: flex-start;
-    background-image: url(../../assests/images/dairy_1280.jpg);
     border-radius: 10px;
     padding: 10rem 5rem;
 }
 
 
 .hero-img-content>h1{
-    max-width: 25rem;
+    max-width: 30rem;
     font-size: 50px;
+    
+    
 }
 .hero-img-content-para{
     max-width: 40rem;
     font-size: 18px;
     color: #726a6a;
+    
+    
 }
 .hero-img-content>button{
     cursor: pointer;
