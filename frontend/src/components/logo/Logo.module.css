@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.logoImg{
+    height: 2rem;
+    width: 2rem;
+    box-shadow: 1px 1px 5px 3px #ece8e89b;
+  
+}
+
+.logoName{
+    width: 11.5rem;
+}

@@ -5,13 +5,13 @@ module.exports = {
     mode: 'development',
     entry: path.join(__dirname, "src", "index.js"),
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         // filename: "bundle.js",
     },
     module: {
         rules: [
             {
-                test: /\.?js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
@@ -21,7 +21,22 @@ module.exports = {
                 },
             },
             {
-                test: /\.(sa|sc|c)ss$/,
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: {
+                                localIdentName: '[name]__[local]__[hash:base64:5]'
+                            },
+                            sourceMap: true
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(sa|sc)ss$/,
                 use: ["style-loader", "css-loader", "sass-loader"],
             },
             {
@@ -57,5 +72,5 @@ module.exports = {
     ],
     devServer: {
         port: 3000,
-    },
+    }
 };
