@@ -11,7 +11,7 @@ const Hero = () => {
     const interval = setInterval(() => {
         const randomIndex = Math.floor(Math.random() * heroSectionDetails.length);
         setRandomVal(randomIndex);
-    }, 2500);
+    }, 3000);
 
     return () => clearInterval(interval);
 }, []);

@@ -22,6 +22,7 @@ const Dropdown = () => {
     const fetchUserLocation = async () => {
       try {
         const [latitude, longitude, success] = await userLocationCordinates();
+        // option is not selected manually and gps is ON
         if (success === true && selectedOption === null) {
            const nearestCity = findNearestCity(latitude, longitude);
           setSelectedOption(nearestCity);

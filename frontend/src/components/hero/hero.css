@@ -1,21 +1,22 @@
  .hero-container{
     position: relative;
     display: flex;
-    width: 90%;
+    width: 85%;
     margin: auto;
     justify-content: flex-start;
     border-radius: 10px;
-    padding: 10rem 5rem;
-    transition: all 1s ease-in;
+    padding: 8rem 5rem;
+    color: white;
+    transition:background-image 3s ease-in;
 }
-
 
 .hero-img-content>h1{
     max-width: 30rem;
+    color: black;
     font-size: 50px;
-    
-    
+    transition: color 1.5s ease-in;
 }
+
 .hero-img-content-para{
     max-width: 40rem;
     font-size: 18px;

@@ -1,6 +1,8 @@
 import dairy from "./images/dairy.jpg";
 import grocery from "./images/grocery.jpg";
 import medical from "./images/medical.jpg";
+import chips from "./static/products/chips.jpg";
+
 
 export const city = [
   "mumbai",
@@ -514,5 +516,63 @@ export const heroSectionDetails = [
     id: "2",
     img: medical,
     title : "Be healthy, get any Medicine!"
+  },
+];
+
+// product details rough template
+export const productDetails = [
+  {
+    product_id: "1",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: chips,
+  },
+  {
+    product_id: "2",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: "https://sabkooch.com/wp-content/uploads/2020/07/61ZDqyI15GL._SL1010_.jpg",
+  },
+  {
+    product_id: "3",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: chips,
+  },
+  {
+    product_id: "4",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: chips,
+  },
+  {
+    product_id: "5",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: chips,
+  },
+  {
+    product_id: "6",
+    discountDeatils: "Sale",
+    category: "Snack & Munchies",
+    productName: "Haldiram's Sev Bhujia",
+    rating: "4.5(149)",
+    price: "$18 $24",
+    img: chips,
   },
 ];

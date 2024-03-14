@@ -4,7 +4,6 @@ import "./popular-product-card.css";
 const PopularProdCard = ({ details }) => {
   return (
     <div className="popular-product-card-container">
-      <div>
         <p className="popular-product-card-discountDeatils">{details.discountDeatils}</p>
         <div className="popular-product-card-img-container">
           <img className="popular-product-card-img" src={details.img} alt="chips" ></img>
@@ -18,7 +17,6 @@ const PopularProdCard = ({ details }) => {
           <p className="popular-product-card-price">{details.price}</p>
           <button className="popular-product-card-btn">Checkout</button>
         </div>
-      </div>
     </div>
   );
 };
