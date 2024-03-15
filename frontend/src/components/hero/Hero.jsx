@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import styles from "./hero.module.css";
 import{heroSectionDetails} from "../../assests/constants"
 
 const Hero = () => {
   const [randomVal,setRandomVal] = useState(0)
-
+ const len =  useMemo(() => heroSectionDetails.length, [])
 
   // random image after given interval
   useEffect(() => {
     const interval = setInterval(() => {
-        const randomIndex = Math.floor(Math.random() * heroSectionDetails.length);
-        setRandomVal(randomIndex);
+        setRandomVal((prevRandomVal) => (prevRandomVal + 1) % len);
     }, 3000);
 
     return () => clearInterval(interval);
