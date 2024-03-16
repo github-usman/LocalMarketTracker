@@ -3,7 +3,7 @@ import userLocationCordinates from "../../../utils/userLocationCordinates";
 import findNearestCity from "../../../utils/nearestCity"
 import { IoIosArrowDown } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
-import { cityCoordinates } from "../../../assests/constants";
+import { cityCoordinates } from "../../../assests/static/constants";
 import styles from "./dropdown.module.css";
 
 

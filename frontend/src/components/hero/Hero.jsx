@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import styles from "./hero.module.css";
-import{heroSectionDetails} from "../../assests/constants"
+import{heroSectionDetails} from "../../assests/static/constants"
 
 const Hero = () => {
   const [randomVal,setRandomVal] = useState(0)

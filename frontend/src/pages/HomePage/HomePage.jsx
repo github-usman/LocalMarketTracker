@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderLayout from '../../layouts/header/HeaderLayout.jsx'
 import HeroLayout from '../../layouts/hero/HeroLayout.jsx'
-import PopularProductsLayout from '../../layouts/popular/PopularProductsLayout.jsx'
+import PopularProductsLayout from '../../layouts/popular-products/PopularProductsLayout.jsx'
 import styles from  "./HomePage.module.css"
 import FooterLayout from '../../layouts/footer/FooterLayout.jsx'
 

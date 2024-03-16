@@ -1,5 +1,5 @@
 import React from "react";
-import web_log from "../../assests/images/logo.png";
+import web_log from "../../assests/media/logo.png";
 
 import styles from "./Logo.module.css";
 const Logo = () => {

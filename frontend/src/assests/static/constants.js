@@ -1,7 +1,7 @@
-import dairy from "./images/dairy.jpg";
-import grocery from "./images/grocery.jpg";
-import medical from "./images/medical.jpg";
-import chips from "./static/products/chips.jpg";
+import medical from "../media/carousel-img/medical.jpg";
+import grocery from "../media/carousel-img/grocery.jpg";
+import dairy from "../media/carousel-img/dairy.jpg";
+import chips from "../media/products/chips.jpg";
 
 
 export const city = [
