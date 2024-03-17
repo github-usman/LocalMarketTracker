@@ -3,6 +3,9 @@ import styles from "./navbar.module.css";
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from "react-icons/io";
 import MegaMenu from '../mega-menu/MegaMenu.jsx';
+import { useDispatch } from 'react-redux';
+import { search } from '../../redux/reducers/searchBox.js';
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,9 +17,16 @@ const Navbar = () => {
   const handleLeave = () => {
     setShowMenu(false);
   };
+
+
+  const dispatch = useDispatch();
+  const addInputHadler = (e)=>{
+    e.preventDefault()
+    dispatch(search(''));
+  }
   return (
     <div className={styles.container}>
-      <div className={styles.navMenu}><Link className={styles.navMenuItem} to={"/"}>Home</Link></div>
+      <div className={styles.navMenu}><Link className={styles.navMenuItem} onClick={addInputHadler} to={"/"}>Home</Link></div>
       <div className={styles.navMenu}><p className={styles.navMenuItem} >Shops  <IoIosArrowDown className={styles.navMenuIcon}/></p></div>
       <div className={styles.navMenu}> <p className={styles.navMenuItem} >Stores  <IoIosArrowDown className={styles.navMenuIcon}/></p></div>
       <div className={styles.navMenu}>
