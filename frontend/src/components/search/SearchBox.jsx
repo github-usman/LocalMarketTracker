@@ -1,14 +1,25 @@
 import React, { useState } from 'react'
 import styles from "./search.module.css";
 import { GoSearch } from "react-icons/go";
+import { useDispatch } from 'react-redux';
+import { search } from '../../redux/reducers/searchBox';
 
 const SearchBox = () => {
-  const [value, setValue] = useState("")
+  const [input, setInput] = useState('');
+  const dispatch = useDispatch();
+
+  const addInputHadler = (e)=>{
+    e.preventDefault()
+    dispatch(search(input));
+    setInput('');
+  }
   return (
-    <div className={styles.container}>
-        <input type='text' value={value} className={styles.inputBtn} placeholder='Search for products' onChange={e=>setValue(e.target.value)} /> 
-        <button className={styles.searchBtn}><GoSearch className={styles.searchIncon}/></button>
-    </div>
+    <>
+      <form onSubmit={addInputHadler} className={styles.container}>
+        <input type='text' value={input} className={styles.inputBtn} placeholder='Search for products' onChange={e=>setInput(e.target.value)} required/> 
+        <button type='submit' className={styles.searchBtn} onClick={addInputHadler}><GoSearch className={styles.searchIncon}/></button>
+       </form>
+    </>
   )
 }
 

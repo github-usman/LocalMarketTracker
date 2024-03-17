@@ -1,13 +1,15 @@
 import React from "react";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import { TfiFaceSad } from "react-icons/tfi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import styles from "./pagination.module.css";
 
 const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
   return (
     <div className={styles.container}>
+      {totalPage ?<>
       <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1} className={
-          styles[`${currentPage === 1 ? "arrowBtnDisable" : "arrowBtn"}`]
+          styles[`${currentPage === 1 ? "arrowBtnDisable" : "arrowBtn"} `]
         }
       >
         <MdOutlineKeyboardArrowLeft />
@@ -138,6 +140,11 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
       >
         <MdOutlineKeyboardArrowRight />
       </button>
+      </>:<div  className={styles.notFound}>
+          <TfiFaceSad color="black" size={35}/>
+           <h5>No Product found in your City, Please try another product</h5>
+      </div>
+      }
     </div>
   );
 };

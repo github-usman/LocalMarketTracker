@@ -1,1 +1,1 @@
-this is sample of folder
+this is sample of folder for api template

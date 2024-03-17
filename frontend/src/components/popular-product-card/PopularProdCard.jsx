@@ -1,5 +1,6 @@
 import React from "react";
 import styles from  "./popularProductCard.module.css";
+import { Link } from "react-router-dom";
 
 const PopularProdCard = ({ details }) => {
   return (
@@ -15,7 +16,7 @@ const PopularProdCard = ({ details }) => {
         </div>
         <div className={styles.cardBtnContainer}>
           <p className={styles.productPrice}>{details.productPrice}₹</p>
-          <button className={styles.checkoutBtn}>Checkout</button>
+          <Link to='/product-details' className={styles.checkoutBtn}>Checkout</Link>
         </div>
     </div>
   );
