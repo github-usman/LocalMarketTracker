@@ -29,7 +29,7 @@ const PopularProductsLayout = () => {
   });
   
   const productsForPage = filteredProducts.slice(startIndex, endIndex);
-  const totalPage = useMemo(()=> Math.round(filteredProducts.length/ITEMS_PER_PAGE),[filteredProducts]); 
+  const totalPage = useMemo(()=> Math.ceil(filteredProducts.length/ITEMS_PER_PAGE),[filteredProducts]); 
 
   return (
     <div className={styles.container}>
