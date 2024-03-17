@@ -33,7 +33,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                       </button>
                     );
                   } else if (i + 1 === 5) {
-                    return <> ...</>;
+                    return <>...</>;
                   } else if (i + 1 === totalPage) {
                     return (
                       <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={ styles[ `${currentPage === i + 1 ? "active-page" : ""}`  ] }  >
@@ -49,7 +49,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                       </button>
                     );
                   } else if (i + 1 === 2) {
-                    return <> ...</>;
+                    return <>...</>;
                   } else if (i + 1 === 3) {
                   } else {
                     return (
@@ -62,7 +62,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                       <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={ styles[ `${currentPage === i + 1 ? "active-page" : ""}` ] } >{i + 1}</button>
                     );
                   } else if (i + 1 === 2) {
-                    return <> ...</>;
+                    return <>...</>;
                   } else {
                     return (
                       <button key={i + 1} onClick={() => setCurrentPage(i + 1)}className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}>
@@ -104,7 +104,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                           </button>
                         );
                       }else if(i+1 === totalPage){
-                        return <>...  <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={ styles[ `${currentPage === i + 1 ? "active-page" : ""}`  ] }  > {i + 1} </button>
+                        return <>...<button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={ styles[ `${currentPage === i + 1 ? "active-page" : ""}`  ] }  > {i + 1} </button>
                             </>
                       }
                   }else{

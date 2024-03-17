@@ -4,20 +4,20 @@ import{heroSectionDetails} from "../../assests/static/constants"
 
 const Hero = () => {
   const [randomVal,setRandomVal] = useState(0)
- const len =  useMemo(() => heroSectionDetails.length, [])
+  const len =  useMemo(() => heroSectionDetails.length, [])
 
-  // random image after given interval
-  useEffect(() => {
-    const interval = setInterval(() => {
-        setRandomVal((prevRandomVal) => (prevRandomVal + 1) % len);
-    }, 3000);
+    // random image after given interval
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setRandomVal((prevRandomVal) => (prevRandomVal + 1) % len);
+        }, 3000);
 
-    return () => clearInterval(interval);
-}, []);
+        return () => clearInterval(interval);
+    }, []);
 
 
   return (
-    <div className={styles.container} style={{backgroundImage: `url(${heroSectionDetails[randomVal].img})`}}> 
+    <div className={styles.container} style={{backgroundImage: `url(${heroSectionDetails[randomVal].img})`,    backgroundSize: 'cover', backgroundRepeat: 'no-repeat',backgroundPosition: 'center'}}> 
       <div className={styles.imgContent}>
         <p className={styles.discount}>Opening Sale Discount 10%</p>
         <h1>{heroSectionDetails[randomVal].title}</h1>

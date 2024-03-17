@@ -2,13 +2,11 @@ import React from "react";
 import styles from  "./popularProductCard.module.css";
 
 const PopularProdCard = ({ details }) => {
-  // {"productName": "Fresh Milk", "productPrice": 60, "discount": 1.5, "category": "Dairy, Bread & Eggs","raing":4.3,"img":chips},
-    // console.log(details, "console details" , details[0].productName , ' => name');
   return (
     <div className={styles.container}>
         <p className={styles.cardDiscountDeatils}>{details.discount}% Discount</p>
         <div className={styles.cardImgContainer}>
-          <img className={styles.cardImg} src={details.img} alt="chips" ></img>
+          <img className={styles.cardImg} src={details.img} alt={details.productName + details.category} ></img>
         </div>
         <div className={styles.cardContentContainer}>
         <p className={styles.cardCategory}>{details.category}</p>

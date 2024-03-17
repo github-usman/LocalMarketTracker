@@ -10,6 +10,10 @@ hr{
     background-color: #e3d6d6;
 }
 
+body{
+  margin-left: 5px;
+}
+
 
 /* small device */
 @media screen and (max-width:640px) {
@@ -49,3 +53,11 @@ body::-webkit-scrollbar {
     background: #576616;
   }
   
+
+  /* for touch screen devices */
+  @media (pointer: none), (pointer: coarse) {
+
+    body{
+      margin: 5px;
+    }
+  }
