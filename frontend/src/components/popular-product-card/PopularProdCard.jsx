@@ -6,7 +6,7 @@ const PopularProdCard = ({ details }) => {
     <div className={styles.container}>
         <p className={styles.cardDiscountDeatils}>{details.discount}% Discount</p>
         <div className={styles.cardImgContainer}>
-          <img className={styles.cardImg} src={details.img} alt={details.productName + details.category} ></img>
+          <img className={styles.cardImg} src={details.img}  alt={details.productName + details.category} ></img>
         </div>
         <div className={styles.cardContentContainer}>
         <p className={styles.cardCategory}>{details.category}</p>

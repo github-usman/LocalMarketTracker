@@ -1,4 +1,16 @@
 import chips from "../media/products/chips.jpg";
+import rice_basmati from "../media/products/rice-basmati.jpeg";
+import green_tea_leaves from "../media/products/green-tea-leaves.jpg";
+import indian_lentil_dahl_masoor_dal from "../media/products/indian-lentil-dahl-masoor-dal.webp";
+import Sugar from "../media/products/sugar.jpg";
+import wheat_flour from "../media/products/wheat-flour.jpeg";
+import Cooking_Oil_Sunflower from "../media/products/Cooking_Oil_Sunflower.jpeg";
+import salt from "../media/products/salt.jpeg";
+import spices_mixed from "../media/products/spices_mixed.jpeg";
+import biscuits from "../media/products/biscuits.jpeg";
+import Snacks_Namkeen from "../media/products/Snacks_Namkeen.jpeg";
+import Soft_Drinks from "../media/products/Soft_Drinks.jpeg";
+import milk from "../media/products/milk.jpeg";
 
 const shopperSampleData = [
       {
@@ -12,18 +24,18 @@ const shopperSampleData = [
         "longitude":"27.194824",
         "latitude" :"78.008716",
         "products" :[
-            {"productName": "Rice (Basmati)", "productPrice": 100, "discount": 0.2, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Wheat Flour (Atta)", "productPrice": 50, "discount": 1.5, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Lentils (Dal)", "productPrice": 80, "discount": 3.0, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Sugar", "productPrice": 45, "discount": 0.7, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Tea Leaves", "productPrice": 200, "discount": 2.3, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Cooking Oil (Sunflower)", "productPrice": 150, "discount": 1.0, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Salt", "productPrice": 20, "discount": 0.8, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Spices (Mixed)", "productPrice": 250, "discount": 0.5, "category": "Breakfast & Instant Food","rating":4.3,"img":chips},
-            {"productName": "Biscuits", "productPrice": 20, "discount": 2.5, "category": "Bakery & Biscuits","rating":4.3,"img":chips},
-            {"productName": "Snacks (Namkeen)", "productPrice": 120, "discount": 0.9, "category": "Snacks & Munchies","rating":4.3,"img":chips},
-            {"productName": "Soft Drinks", "productPrice": 40, "discount": 4.2, "category": "Cold Drinks & Juices","rating":4.3,"img":chips},
-            {"productName": "Milk", "productPrice": 60, "discount": 1.8, "category": "Dairy, Bread & Eggs","rating":4.3,"img":chips},
+            {"productName": "Rice (Basmati)", "productPrice": 100, "discount": 0.2, "category": "Breakfast & Instant Food","rating":4.3,"img":rice_basmati},
+            {"productName": "Wheat Flour (Atta)", "productPrice": 50, "discount": 1.5, "category": "Breakfast & Instant Food","rating":4.3,"img":wheat_flour},
+            {"productName": "Lentils (Dal)", "productPrice": 80, "discount": 3.0, "category": "Breakfast & Instant Food","rating":4.3,"img":indian_lentil_dahl_masoor_dal},
+            {"productName": "Sugar", "productPrice": 45, "discount": 0.7, "category": "Breakfast & Instant Food","rating":4.3,"img":Sugar},
+            {"productName": "Tea Leaves", "productPrice": 200, "discount": 2.3, "category": "Breakfast & Instant Food","rating":4.3,"img":green_tea_leaves},
+            {"productName": "Cooking Oil (Sunflower)", "productPrice": 150, "discount": 1.0, "category": "Breakfast & Instant Food","rating":4.3,"img":Cooking_Oil_Sunflower},
+            {"productName": "Salt", "productPrice": 20, "discount": 0.8, "category": "Breakfast & Instant Food","rating":4.3,"img":salt},
+            {"productName": "Spices (Mixed)", "productPrice": 250, "discount": 0.5, "category": "Breakfast & Instant Food","rating":4.3,"img":spices_mixed},
+            {"productName": "Biscuits", "productPrice": 20, "discount": 2.5, "category": "Bakery & Biscuits","rating":4.3,"img":biscuits},
+            {"productName": "Snacks (Namkeen)", "productPrice": 120, "discount": 0.9, "category": "Snacks & Munchies","rating":4.3,"img":Snacks_Namkeen},
+            {"productName": "Soft Drinks", "productPrice": 40, "discount": 4.2, "category": "Cold Drinks & Juices","rating":4.3,"img":Soft_Drinks},
+            {"productName": "Milk", "productPrice": 60, "discount": 1.8, "category": "Dairy, Bread & Eggs","rating":4.3,"img":milk},
             {"productName": "Bread", "productPrice": 30, "discount": 3.7, "category": "Dairy, Bread & Eggs","rating":4.3,"img":chips},
             {"productName": "Eggs", "productPrice": 6, "discount": 0.6, "category": "Dairy, Bread & Eggs","rating":4.3,"img":chips},
             {"productName": "Soap (Lux)", "productPrice": 25, "discount": 1.2, "category": "Bathroom & Toiletries","rating":4.3,"img":chips},
