@@ -20,9 +20,7 @@ price of product and of course number of stocks available and so on.
 website by which the customer visit will be decent and stock
 consumption will be on time(before expiry).
 ---
-# Screenshots & GIF
-![Home Page Image](./frontend/src/assests/images/grocery.jpg)
----
+
 # Installation and Configuration
 
 ***It takes me lot of Time,Efforts,Research to build this awesome site, Do not forget to give me credit it***
@@ -35,3 +33,9 @@ $ npm start
 ```
 # Collaboration
 Always welcome you to join, and contribute some new feature and make it better.
+
+# Screenshots & GIF
+![Home Page Image](./frontend/public//assests/Shopping-in-Your-City.png)
+<div style="text-align:center;">
+    <img src="./frontend/public/assests/Shopping-in-Your-City-moble.png" alt="Home Page Image" width="400">
+</div>
