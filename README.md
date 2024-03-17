@@ -1,3 +1,8 @@
+
+# Screenshots 
+![Home Page Image](./frontend/public//assests/Shopping-in-Your-City.png)
+
+
 # Shopping-in-Your-City - PROJECT IS UNDER PROCESS WE ARE WORKING ON IT
 1. Stock/Product Availability in market  nearby.
    E-commerce majors such as Flipkart, Amazon India, have been
@@ -34,8 +39,7 @@ $ npm start
 # Collaboration
 Always welcome you to join, and contribute some new feature and make it better.
 
-# Screenshots & GIF
-![Home Page Image](./frontend/public//assests/Shopping-in-Your-City.png)
+# Screenshots for small device
 <div style="text-align:center;">
     <img src="./frontend/public/assests/Shopping-in-Your-City-moble.png" alt="Home Page Image" width="400">
 </div>
