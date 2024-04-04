@@ -9,7 +9,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
     <div className={styles.container}>
       {totalPage ?<>
       <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1} className={
-          styles[`${currentPage === 1 ? "arrowBtnDisable" : "arrowBtn"} `]
+          styles[`${currentPage === 1  ? "arrowBtnDisable" : "arrowBtn"}`]
         }
       >
         <MdOutlineKeyboardArrowLeft />
