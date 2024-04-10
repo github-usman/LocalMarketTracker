@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from  "./footerLayout.module.css"
-import FooterProductLinks from '../../components/footer/FooterProductLinks.jsx'
+import FooterProductLinks from '../../components/home/footer/FooterProductLinks.jsx'
 const FooterLayout = () => {
   
   return (

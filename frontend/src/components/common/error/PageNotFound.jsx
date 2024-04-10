@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineSmsFailed } from "react-icons/md";
-import Header from "../../layouts/header/HeaderLayout.jsx";
+import Header from "../../../layouts/header/HeaderLayout.jsx";
 
 function PageNotFound() {
   return (

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Navbar from "../../components/navbar/Navbar.jsx";
-import AllDepartments from "../../components/all-departments-btn/AllDepartments.jsx";
-import SearchBox from "../../components/search/SearchBox.jsx";
-import Logo from "../../components/logo/Logo.jsx";
+import Navbar from "../../components/navbar/navbar/Navbar.jsx";
+import AllDepartments from "../../components/navbar/all-departments-btn/AllDepartments.jsx";
+import SearchBox from "../../components/search/search-box/SearchBox.jsx";
+import Logo from "../../components/common/logo/Logo.jsx";
 import AuthLayout from "../../components/auth/AuthLayout.jsx";
-import CitySearchBox from "../../components/search-by-city/CitySearchBox.jsx";
+import CitySearchBox from "../../components/search/search-by-city/CitySearchBox.jsx";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import styles from "./header.module.css";
 

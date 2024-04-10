@@ -1,4 +1,4 @@
-import { cityCoordinates } from "../assests/static/constants";
+import { cityCoordinates } from "../assets/static/constants";
 
 function calculateDistance(lat1, lon1, lat2, lon2) {
     var dx = lat2 - lat1;

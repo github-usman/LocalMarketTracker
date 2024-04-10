@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from "react-icons/io";
 import MegaMenu from '../mega-menu/MegaMenu.jsx';
 import { useDispatch } from 'react-redux';
-import { search } from '../../redux/reducers/searchBox.js';
+import { search } from '../../../redux/reducers/searchBox.js';
 
 
 const Navbar = () => {

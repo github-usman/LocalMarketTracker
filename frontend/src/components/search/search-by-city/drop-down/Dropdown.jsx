@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import userLocationCordinates from "../../../utils/userLocationCordinates";
-import findNearestCity from "../../../utils/nearestCity"
+import userLocationCordinates from "../../../../utils/userLocationCordinates";
+import findNearestCity from "../../../../utils/nearestCity"
 import { IoIosArrowDown } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
-import { cityCoordinates } from "../../../assests/static/constants";
+import { cityCoordinates } from "../../../../assets/static/constants";
 import styles from "./dropdown.module.css";
 
 
@@ -20,7 +20,7 @@ const Dropdown = () => {
         const [latitude, longitude, success] = await userLocationCordinates();
         // option is not selected manually and gps is ON
         if (success === true && selectedOption === null) {
-           const nearestCity = findNearestCity(latitude, longitude);
+          const nearestCity = findNearestCity(latitude, longitude);
           setSelectedOption(nearestCity);
         }
       } catch (error) {
@@ -51,37 +51,37 @@ const Dropdown = () => {
     setShowMenu(false);
   };
 
-      // <button className={styles.btnAllDepartment} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-       
-     
+  // <button className={styles.btnAllDepartment} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
+
+
   // 
 
   return (
     <div className={styles.container} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
       <div>
         <div className={styles.dropdownHeader} >
-              {/* icons or location and arrow */}
-            <span className={styles[`${showMenu ? "location-active" : ""}`]}>
-              <FaLocationDot />
-            </span>
-            <span style={{ color: selectedOption ? "black" : "grey" }}>
-              {selectedOption || "Select Your City"}
-            </span>
-            <span className={styles[`arrow ${showMenu ? "rotate" : ""}`]}>
-              <IoIosArrowDown />
-            </span>
-            </div>
-                {showMenu && (
-                  // manual city selection by user
-                  <ul className={styles.dropdownList}>
-                    {city.sort((a, b) => a.localeCompare(b)).map((option, index) => (
-                      <li key={index} onClick={() => handleOptionClick(option)}>
-                        {option}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-          </div>
+          {/* icons or location and arrow */}
+          <span className={styles[`${showMenu ? "location-active" : ""}`]}>
+            <FaLocationDot />
+          </span>
+          <span style={{ color: selectedOption ? "black" : "grey" }}>
+            {selectedOption || "Select Your City"}
+          </span>
+          <span className={styles[`arrow ${showMenu ? "rotate" : ""}`]}>
+            <IoIosArrowDown />
+          </span>
+        </div>
+        {showMenu && (
+          // manual city selection by user
+          <ul className={styles.dropdownList}>
+            {city.sort((a, b) => a.localeCompare(b)).map((option, index) => (
+              <li key={index} onClick={() => handleOptionClick(option)}>
+                {option}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 };
