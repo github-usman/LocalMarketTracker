@@ -1,15 +1,12 @@
-import React, { Suspense } from "react";
-import { router } from "./routes/routes.js";
+import React from "react";
 import { RouterProvider } from "react-router-dom";
 import "./assests/styles/global.css";
-import Loader from "./components/spinner/Loader.jsx";
+import { router } from "./routes/routes.js";
 
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={<Loader/>}>
         <RouterProvider router={router} />
-      </Suspense>
     </div>
   );
 }

@@ -1,20 +1,23 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
-import HomePage from "../pages/HomePage/HomePage.jsx";
-import PageNotFound from "../components/error/PageNotFound.jsx"
-import ProductDetails from "../components/prodcut-Details/ProductDetails.jsx";
+import Loader from "../components/loader/Loading.jsx";
+
+const HomePage = lazy(() => import("../pages/HomePage/HomePage.jsx"));
+const PageNotFound = lazy(() => import("../components/error/PageNotFound.jsx"));
+const ProductDetails = lazy(() => import("../components/prodcut-Details/ProductDetails.jsx"));
+
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage></HomePage>,
+    element: <Suspense fallback={<Loader />}><HomePage /></Suspense>,
   },
   {
     path: "product-details",
-    element: <ProductDetails></ProductDetails>,
+    element: <Suspense fallback={<Loader />}><ProductDetails /></Suspense>,
   },
   {
     path: "*",
-    element: <PageNotFound></PageNotFound>,
+    element: <Suspense fallback={<Loader />}><PageNotFound /></Suspense>,
   }
 ]);

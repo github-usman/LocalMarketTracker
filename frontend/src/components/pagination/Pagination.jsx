@@ -35,7 +35,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         </button>
                       );
                     } else if (i + 1 === 5) {
-                      return <div key={i + 1}>...</div>;
+                      return <>...</>;
                     } else if (i + 1 === totalPage) {
                       return (
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}  >
@@ -51,7 +51,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         </button>
                       );
                     } else if (i + 1 === 2) {
-                      return <div key={i + 1}>...</div>;
+                      return <>...</>;
                     } else if (i + 1 === 3) {
                     } else {
                       return (
@@ -64,7 +64,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]} >{i + 1}</button>
                       );
                     } else if (i + 1 === 2) {
-                      return <div key={i + 1}>...</div>;
+                      return <>...</>;
                     } else {
                       return (
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}>
@@ -82,7 +82,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         </button>
                       );
                     } else if (i + 1 === 4) {
-                      return <div key={i + 1}>...</div>
+                      return <>...</>
                     } else if (i + 1 === totalPage) {
                       return (
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}  >
@@ -98,7 +98,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         </button>
                       );
                     } else if (i + 1 === 2) {
-                      return <div key={i + 1}>...</div>
+                      return <>...</>
                     } else if (i + 1 === currentPage - 1 || i + 1 === currentPage + 1 || currentPage === i + 1) {
                       return (
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}  >
@@ -117,7 +117,7 @@ const Pagination = ({ setCurrentPage, currentPage, totalPage }) => {
                         </button>
                       );
                     } else if (i + 1 === 2) {
-                      return <div key={i + 1}>...</div>
+                      return <>...</>
                     } else if (i + 1 >= totalPage - 3) {
                       return (
                         <button key={i + 1} onClick={() => setCurrentPage(i + 1)} className={styles[`${currentPage === i + 1 ? "active-page" : ""}`]}  >
